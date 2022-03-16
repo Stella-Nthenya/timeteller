@@ -46,4 +46,10 @@ def wordy_time(time):
         else:
             return f'{60 - minutes} minutes to {hr_to_str(hr+1)}'
 
-print(wordy_time(''))
+print(wordy_time('5:30'))
+print(wordy_time('5:00'))
+print(wordy_time('5:15'))
+print(wordy_time('5:45'))
+print(wordy_time('5:20'))
+print(wordy_time('5:50'))
+print(wordy_time('5:80'))
